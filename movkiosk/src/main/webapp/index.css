@@ -1,0 +1,105 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+body {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+#main {
+	background-image:url('movie.jpg');
+}
+
+#mainText {
+	font-family: 'Oswald', sans-serif;
+	font-size: 80pt;
+	text-align: center;
+	text-shadow: 4px 4px 2px crimson;
+}
+
+a:link {
+	color: rgb(255, 251, 230);
+	text-decoration-line: none;
+}
+a:visited {
+	color: rgb(255, 251, 230);
+}
+a:hover {
+	color: rgb(255, 251, 230);
+}
+
+#bpccBox1 {
+	width:200px;
+	height:200px;
+	display:block;
+	background-color:grey;
+	border:5px;
+	border-style:solid;
+	border-color:darkgrey;
+}
+#bpccBox2 {
+	width:200px;
+	height:200px;
+	display:block;
+	background-color:grey;
+	border:5px;
+	border-style:solid;
+	border-color:darkgrey;
+	border-top: none;
+}
+#bpccBox3 {
+	width:200px;
+	height:200px;
+	display:block;
+	background-color:grey;
+	border:5px;
+	border-style:solid;
+	border-color:darkgrey;
+	border-top: none;
+}
+#bpccBox4 {
+	width:200px;
+	height:200px;
+	display:block;
+	background-color:grey;
+	border:5px;
+	border-style:solid;
+	border-color:darkgrey;
+	border-top: none;
+}
+.bpccText {
+	font-size:25pt;
+	color:white;
+}
+.bpccText:hover {
+	color:white;
+}
+
+#timeBox {
+	width:800px;
+	height:600px;
+	display:block;
+	background-color:darkgrey;
+	border:5px;
+	border-style:solid;
+	border-color:grey;
+}
+#buyText1 {
+	font-size: 25pt;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	color:white;
+	text-shadow: 2px 2px 2px skyblue;
+}
+
+#s1 {
+	display:inline;
+	
+}
+#s2 {
+	display:inline;
+	
+}
+#s3 {
+	display:inline;
+	
+}
